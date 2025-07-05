@@ -1,0 +1,1795 @@
+
+var sum = 10 + 10;
+console.log(sum)
+
+var difference = 50 - 10;
+console.log(difference)
+
+var product = 80 * 0;
+console.log(product)
+
+var division = 10 / 2;
+console.log(division)
+
+var myVar = 2;
+// Only change code below this line
+myVar++;
+console.log(myVar)
+
+var myVar = 12;
+// Only change code below this line
+myVar--;
+console.log(myVar)
+
+var ourDecimal = 5.7;
+//Only change code below this line
+var myDecimal = 0.009;
+console.log(myDecimal)
+
+var product = 2 * 2;
+console.log(product);
+
+var product = 2.8 * 2.8;
+console.log(product)
+
+var quotient = 1.5 / 1.5;
+console.log(quotient)
+
+var remainder;
+remainder = 11 % 3;
+console.log(remainder)
+
+var a = 3;
+var b = 17;
+var c = 12;
+
+// Only modify code beow this line
+
+a += 12;
+b += 9;
+c += 7;
+
+console.log(a)
+
+// Do not change any code below.
+
+var s = 5;
+var v = 2;
+var u = 7;
+
+// Only modify the code below this line.
+
+s -= 4;
+v -= 7;
+u -= 1;
+
+console.log(u)
+
+
+// Do not change any code below this line.
+var d = 2;
+var f = 4;
+var q = 8;
+
+//Only modify the code below this line.
+
+d *= 6;
+f *= 0;
+q *= 2;
+
+console.log(q)
+
+var a = 2;
+var e = 3;
+var g = 5;
+
+//Only modify the code below.
+a = a + 1;
+e = e + 8;
+g = g + 10;
+
+console.log(a)
+
+//Dont change anything in this vode.
+p = 9;
+o = 2;
+i = 4;
+
+// Only modify the code below.
+p /= 3;
+o /= 6;
+i /= 9;
+
+console.log(i)
+
+// Dont change anything in this code.
+var myName = 'Frank'
+var lastName = 'Johnson'
+
+console.log(myName)
+
+//Do not change anything in this code.
+var myStr = 'I am a\'double quoted\'string inside\'double quotes';
+console.log(myStr)
+
+//Do to do anything below this code.
+var myStr = 'Firstline\nSecondLine\nThirdLine'
+console.log(myStr);
+
+//Do not do anything with code below.
+var myStr = 'Johnson' + 'Johnson';
+console.log(myStr);
+
+//Only Change the code below this.
+var myStr = 'This is the Start.\n' + 'This is the End.\n'
+console.log(myStr);
+
+//Do nto do anything with thi code.
+var ourStr = 'I come first.\n ';
+ourStr += 'I come second.\n ';
+console.log(ourStr)
+//Only change the code below this line.
+var myStr = 'This is my Name.\n '
+myStr += 'This is my AGE.\n '
+console.log(myStr);
+
+//Dont do anything to the code below.
+var ourName = 'Fifa Montage'
+var ourStr = 'Hello, our name is ' + ourName +'how are you ?';
+console.log(ourStr)
+
+//Only change code below.
+var myName = 'Johnson';
+var myStr = 'My name is' + 'and I am well';
+console.log(myStr)
+
+// Dont change anything to this code below.
+var firstNameLength = 0;
+var firstName = 'Ada';
+
+firstNameLength = firstName.length;
+console.log(firstNameLength)
+//Setup
+var lastNameLength = 0;
+var lastName = 'Johnson';
+
+lastNameLength = lastName.length;
+console.log(lastNameLength);
+
+//Dont do anything with the code below.
+var firstNameLength = 0;
+var firstName = 'My Paps is so Great'
+
+firstNameLength = firstName.length;
+console.log(firstNameLength)
+
+
+//Do not touch the code before this line.
+var firstLetterOfFirstName = '';
+var firstName = 'Fay';
+
+firstLetterOfFirstName = firstName[1];
+console.log(firstLetterOfFirstName)
+
+
+//Setup 2
+var lastLetterOfLastName = '';
+var lastName = 'Kamau';
+
+lastLetterOfLastName = lastName[0]
+console.log(lastLetterOfLastName)
+
+//Setup 3
+var secondLetterOfFirstName = '';
+var secondName = 'Boobs'
+
+secondLetterOfFirstName = secondName[3]
+console.log(secondLetterOfFirstName)
+
+//Dont do anything to the code before this one.
+//Setup 4
+var myStr = 'Jellow Colour'
+
+//Dont do anything to the code below.
+myStr = 'Yellow Colour'
+console.log(myStr)
+
+//Setup 5
+var firstName = 'Ada';
+var lastLetterOfFirtsName = firstName[firstName.length - 1];
+console.log(lastLetterOfFirtsName)
+
+//Setup
+var firstName = 'Johnson';
+var lastLetterOfFirstName = firstName[firstName.length - 1];
+console.log(lastLetterOfFirstName);
+
+//Setup
+var lastName = 'Mercy';
+var lastLetterOfLastName = lastName[lastName.length - 1];
+console.log(lastLetterOfLastName) 
+
+//Setup
+var firstName = 'Jackson';
+var fourthToLastNameofFirstName = firstName[firstName.length - 4];
+console.log(fourthToLastNameofFirstName)
+
+//Setup
+//World Banks learning.
+//functions worlds(myNoun, myAdjective, myVerb, myAdverb) { }
+//Your Code below this
+var result = ''
+//result += 'The ' + myAdjective + myNoun + myVerb + 'to the store' + myAdverb
+
+//Unfinished work
+
+//Arrays
+var ourArray = ['John', 23];
+var myArrays = ['Johnson',];
+console.log(myArrays)
+
+//Nested Arrays
+//Example 1
+var ourArray = [['the Universe', 50], ['Johnson is a Genius'], [1234567]];
+console.log(ourArray)
+//Example 2
+var myArray = [['Ronaldo is the Goat', 'He wears the shirt Number 7'], ['Mom went to the Market'], ['Integers']];
+console.log(myArray)
+
+//Access Array Data With Indexes.
+//Example
+var ourArray = [40, 60, 90];
+var ourData = ourArray[1];
+console.log(ourData); //Answer is 60
+//Exercise 
+var myArray = [1, 2, 3, 4, 5];
+var myData = myArray[3] //Answer is 4
+console.log(myData);
+//Assumption : IN THE ARRAY STORING THE ELEMENT WE HAVE FETCHED A SPECIFIC DIGIT IN THE EXISTING ARRAY. (Which is 4)
+
+//Modify Arrays Data With Indexes.
+//Example
+var ourArray = [55, 70, 85];
+ourArray[2] = 100;
+console.log(ourArray); // 85 has changed to 100.
+//WE HAVE CHANGED OUR 2ND ELEMENT IN OUR ARRAY FROM 85 TO 100.
+//Exercise
+var myArray = ['My Name is Johnson'];
+myArray[0] = 'My Age is 19';
+console.log(myArray);
+//WE HAVE CHANGED THE STRING FROM 'My Name is Johnson' TO 'My Age is 19'.
+
+//Access Multi-Dimensional Arrays With Indexes.
+//Example.
+var myArray = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]];
+var myData = myArray[2][2];
+console.log(myData);
+//Exercise
+var ourArray = [['Cup'], ['Spoon'], ['Sufuria'], ['Table', 123]];
+var ourData = ourArray[3][1];
+console.log(ourData); //The program will fetch the 1st variable '123' in the 3rd Array.
+//HERE WE HAVE FETCHED THE PARTICULAR ARRAY FROM THE PROGRAM WHICH IS '123' EXISTING IN THE ARRAY.
+
+//Manipulate Arrays with push(). *****
+//Example.
+var myArray = [['Football', 'J', 'Soccer', 'Basketball']];
+var myArraypush = (['Cricket', 'Jay']);
+console.log(myArraypush);
+//Exercise
+var ourArray = ['Happy', 'Jim', 'Joy'];
+var ourArraypush = (['dog']);
+console.log(ourArraypush)
+
+//Manipulate Arrays with pop().
+//Example.
+var ourArray = [1, 2, 3];
+var removedFromOurArray = ourArray.pop();
+console.log(removedFromOurArray);
+//Exercise.
+var myArray = ['Joe', 123, 5];
+var removedFromMyArray = myArray.pop();
+console.log(removedFromMyArray);
+//Execise.
+var ourArray = [40, 30, 60];
+var removedFromOurArray = ourArray.pop();
+console.log(removedFromOurArray);
+//Exercise.
+var myArray = [47, 90, 115];
+var removedFromMyArray = myArray.pop();
+console.log(removedFromMyArray);
+// WE HAVE SUCCESSFULLY REMOVED THE LAST ELEMENT IN THE ARRAYS USING THE 'POP' COMAND.
+
+//Manipulate Arrays with Shift().
+//Example.
+var ourArray = ['Cat', 'Opps', 'Teacher'];
+var removedFromOurArray = ourArray.shift();
+console.log(removedFromOurArray);
+//Exercise.
+var myArray = [1, 2, 3, 4, 5];
+var removedFromMyArray = myArray.shift();
+console.log(removedFromMyArray);
+//Exercise.
+var otherArray = [60, 70, 80];
+var removedFromOtherArray = otherArray.shift();
+console.log(removedFromOtherArray);
+
+//Manipulate Arrays with Unshift().
+//Example.
+var ourArray = ['Fay', 'Mercy', 'Tony'];
+ourArray.shift(); //Our Array now equals ['Mercy', 'Tony'] Fay has been removed from the Array.
+ourArray.unshift('Johnson');
+console.log(ourArray); //Our Array now contains 'Johnson as the first character of our array which we have included.
+//Example.
+var myArray = ['Sarah', 'Joy', 'Barbra'];
+myArray.shift(); //We have removed 'Sarah' in the array.
+myArray.unshift('Fifa Montage'); //The we include 'Fifa Montage' in the array as the first character.
+console.log(myArray);
+//WE HAVE SUCCESSFULLY REMOVED AND ADDED CHARACTER AS THE FIRST ELEMENTS IN THE ARRAYS.
+
+//Shopping List.
+//Example.
+var myList = [['Milk', 2], ['Bananas', 5], ['Matchstick', 1], ['Black Shirts', 5]];
+console.log(myList);
+//Exercise.
+var myList = [['Ball', 2], ['Curtains', 1], ['Pillows', 4]];
+//WE HAVE SUCCESSFULLY MADE A LIST OF A SHOPPING LIST.
+
+//Write Reusable Code with Functions.
+//Example.
+function ourReusableFunction() {
+    console.log('Hello, Johnson');
+
+}
+
+ourReusableFunction();
+//Only use the code below this line.
+//Exercise..
+function ourReusableFunction() {
+    console.log('My Name is Johnson', 'Whats yours');
+}
+ourReusableFunction();
+//Exercise.
+function myReusableFunction() {
+    console.log('You are smart', 'Not Dumb');
+
+}
+myReusableFunction();
+//Exercise.
+function ourReusableFunction() {
+    console.log('I am 19 years of Age');
+
+}
+myReusableFunction();
+//Exercise.
+function ourReusableFunction() {
+    console.log('He is a Great Computer Scientist Hire him Now !');
+
+}
+ourReusableFunction();
+//WE HAVE TRIED THE REUSABLECODE USING FUNCTIONS SUCCESSFULLY.
+
+//Passing Values to Functions with Arguments.
+//Example.
+function ourFunctionWithArgs(a, b) {
+    console.log(a - b);
+
+}
+ourFunctionWithArgs(50, 10); // Outputs 5.
+//Exercise.
+function ourFunctionWithArgs(f, v) {
+    console.log(f + v);
+
+}
+//Dont do anything to the code bofore.
+//Exercise.
+function ourFunctionWithArgs(a, b) {
+    console.log(a * b);
+
+}
+ourFunctionWithArgs(2, 2);
+//Exercise.
+function myfunctionWithArgs(r, o) {
+    console.log(r / o);
+
+}
+myfunctionWithArgs(100, 2);
+//WE HAVE SUCCESSFULLY DONE THE PASSING OF VALUES TO FUNCTIONS WITH ARGS.
+
+//Return a Value from a Function with Return.
+//Example.
+function minusSeven(num) {
+    return num - 7;
+
+}
+console.log(minusSeven(10)); // The console.log operator will run and the code will execute '10 - 7' to be '3'.
+//Exercise.
+function minusTen(num) {
+    return num - 10;
+
+}
+console.log(minusTen(80));
+//Exercise.
+function plusTwenty(num) {
+    return num + 8;
+
+}
+console.log(plusTwenty(8));
+//Exercise.
+function timesTwo(num) {
+    return num * 5;
+
+}
+console.log(timesTwo(5));
+//Exercise.
+function divideTwo(num) {
+    return num / 2;
+
+}
+console.log(divideTwo(20));
+//Exercise.
+function plusFive(num) {
+    return num + 5;
+
+}
+console.log(plusFive(5));
+// WE HAVE SUCCESSFULLY MASTERED THE RETURNING OF A VALUE FROM THE FUNCTING USING RETURN.
+
+//Understanding Undefined Value Returned from a Function. *********
+//Example.
+
+
+
+//Assignment with a Returned Value.
+//Example.
+var changed = 0;
+function change(num) {
+    return (num + 5) / 3;
+
+} 
+changed = change(10);
+console.log(changed);
+
+//Example.
+var processed = 0;
+function processArg(num) {
+    return (num - 10) * 10;
+
+}
+processed = processArg(10);
+console.log(processed);
+
+//Example
+var organised = 0;
+function organise(num) {
+    return (num - 20) - 5;
+
+}
+organised = organise(100);
+console.log(organised);
+
+//Exercise.
+var changed = 0;
+function change(num) {
+    return (num - 5) / 2;
+
+}
+changed = change(100);
+console.log(changed);
+
+//Exercise.
+var processed = 0;
+function process(num) {
+    return (num * 90) - 1000;
+
+}
+processed = process(100);
+console.log(processed);
+
+//Exercise.
+var fetched = 0;
+function fetch(num) {
+    return (num + 10) - 1;
+
+}
+fetched = fetch(13)
+console.log(fetched);
+
+//Exercise.
+var organised = 0;
+function organise(num) {
+    return (num / 5) + 2;
+
+}
+organised = organise(50);
+console.log(organised);
+
+//Exercise.
+var fetched = 0;
+function ftech(num) {
+    return (num * 90) + 80;
+
+}
+fetched = fetch(75);
+console.log(fetched);
+//Exercise.
+var added = 0;
+function add(num) {
+    return (num * 0) + 9;
+}
+added = add(7);
+console.log(added);
+//SUCCESS TO ASSIGNING A RETURN VALUE.
+//STAND IN LINE.  ******NOT UNDERSTOOD.....
+//Example.
+
+
+
+
+//BOOLEAN VALUES.
+//Example.
+var studied = 0;
+function iStudiedJavascriptToday() {
+    return true;
+}
+studied = iStudiedJavascriptToday(true)
+console.log(studied);
+//Example.
+function welcomeToBoolean() {
+    return (false);
+}
+//BOOLEAN CAN EITHER BE TRUE OR FALSE...
+
+//USE CONDITIONAL LOGIC WITH IF STATEMENTS.
+//Example.
+function ourtrueOrFalse(isItTrue) {
+    if (isItTrue) {
+        return 'Yes, its true';
+    }
+    return 'No its false';
+}
+console.log(ourtrueOrFalse(true));
+//Example.
+function ourTrueOrFalse(IsItFalse) {
+    if (IsItFalse) {
+        return 'Yes it is False, Sit Down';
+    }
+    
+        return 'No its True, Clap for him !'
+        
+    
+    }
+console.log(ourTrueOrFalse(true));
+//Exercise.
+function trueOrFalse(thatWasTrue) {
+    if (thatWasTrue) {
+        return 'Yes get a present';
+    }
+    return 'No come receive your strokes';
+}
+console.log(trueOrFalse(false));
+//Exercise.
+function myTrueOrFalse(IsThisTrue) {
+    if (IsThisTrue) {
+        return 'You are a Developer';
+    }
+    return 'You are a Joker';
+}
+console.log(myTrueOrFalse(false));
+//Exercise.
+function ourTrueOrFalse(IsTheStatementTrue) {
+    if (IsTheStatementTrue) {
+        return 'You are a Noob';
+    }
+    return 'You are a pro';
+}
+console.log(ourTrueOrFalse(true));
+//WE HAVE KNOWN HOW TO USE THE IF STATEMENT WITH CONDIONAL STATEMENTS.
+
+//
+//Example.
+
+// Continuation JAVASCRIPT CODING.
+
+// COMPARISON WITH THE EQUALITY OPERATOR. (==)
+//Setup.
+function testEqual(val) {
+    if (val == 12) { //Change this line
+        return "Equal"
+    }
+    return "Not Equal"
+}
+console.log(testEqual(12));
+
+//Exercise.
+function testEqual(val) {
+    if (val == 8) {
+        return "Equal"
+    }
+    return "Not Equal"
+}    
+console.log(testEqual(10));
+//Exercise.
+function testEqual(val) {
+    if (val == 9) {
+        return "Equal"
+    }
+    return "Not Equal"
+}
+console.log(testEqual(9));
+//Example.
+function testEqual(val) {
+    if (val != 9) {
+        return "Not Equal" 
+    }
+    return"Equal"
+}
+console.log(testEqual(9));
+//Exercise.
+function testEqual(val) {
+    if (val == 1000) {
+        return "Equal"
+    }
+    return "Not Equal"
+}
+console.log(testEqual(1000));
+//LEARNED ABOUT THE COMPARISON WITH THE EQUALITY OPERATOR. (==)
+
+//COMPARISON WITH THE STRICT EQUALITY OPERATOR. (===)
+//Example.
+function testEqual(val) {
+    if (val === 10) {
+        return "Equal"
+    }
+    return "Not Equal"
+}
+console.log(testEqual(10));
+//Exercise.
+function testEqual(val) {
+    if (val === 90) {
+        return "Equal"
+    }
+    return "Not Equal"
+}
+console.log(testEqual("90")) //Dispalys Not Equal because of the 'Sring' diffrence.
+//LEARNED THE COMPARISON WITH THE STRICT EQUALITY OPERATOR.
+
+//Taking a Look if (==) is the same as (===).
+// (==) OPEARATOR.
+function testEqual(val) {
+    if (val == 10) {
+        return "Equal"
+}
+return "Not Equal"
+}
+console.log(testEqual("10"))
+// (===) OPERATOR.
+function testEqual(val) {
+    if (val === 11) {
+        return "Equal"
+    }
+    return "Not Equal"
+}
+console.log(testEqual("11")) 
+
+//PRACTISE COMPAIRING DIFFERENT VALUES.
+//Example.
+function compareEquality(a, b) {
+    if (a == b) {
+        return "Equal"
+    }
+    return "Not Equal"
+}
+console.log(compareEquality(10, "10")) //PRINTS EQUAL BECAUSE THE (==) OPERATOR WILL CHANGE THE TYPE FROM A STRING TO AN INTERGER HENCE EQUAL....
+//Example (WITH STRICT EQUALITY OPERATOR).
+function compareEquality(a, b) {
+    if (a === b) {
+        return "Equal"
+    }
+    return "Not Equal"
+}
+console.log(compareEquality(20, "20")) //PRINTS NOT EQUAL BECAUSE THE (===) OPERATOR WILL NOT CHANGE AS IT CANNOT COMPARED TO THE (==) OPERATOR.....
+
+//COMPARISON WITH THE INEQUALITY OPERATOR.
+//Example (WITH NOT EQUAL OPERATOR.)
+function compareEquality(c, d) {
+    if (c != d) {
+        return "Not Equal"
+    }
+    return "Equal"
+}
+console.log(compareEquality(2, 1)) //PRINTS NOT EQUAL ACCORDING TO THE CODE.BECAUSE IT SUPPORTS C-2 IS NOT EQUAL TO D-1....
+//Exercise.
+function testNotEqual(a) {
+    if (a != 10) {
+        return "Not Equal"
+    }
+    return "Equal"
+}
+console.log(testNotEqual(11)) //PRINTS NOT EQUAL COZ WHEN TESTING THE NOT EQUAL OPERATOR IT'S JUST SIMPLY CHECKING IF 10 IS EQUAL TO 11 OR NOT.....
+
+//COMPARISON WITH THE STRICT INEQUALITY OPERATOR.
+//Example.
+function testStrictNotEqualOperator(a, b) {
+    if (a !== b) {
+        return "Not Equal"
+    }
+    return "Equal"
+}
+console.log(testStrictNotEqualOperator(2, 5)); //PRINTS NOT EQUAL COZ 2 IS NOT THE SAME AS 5 UNLESS OTHERWISE....
+//Exercise.
+function testStrictNotEqual(val) {
+    if (val !== 50) {
+        return "Not Equal"
+    }
+    return "Equal"
+}
+console.log(testStrictNotEqual(50)); //PRINTS EQUAL COZ VAL "50" IS EQUAL TO 50.
+
+//COMPARISONS WITH THE LOGICAL AND OPERATOR.
+//Example.
+function testGreaterThan(val) {
+    if (val > 500) {
+        return "The value has Passed the mark"
+    }
+    if (val < 500)
+    return "The value is under 500"
+}
+console.log(testGreaterThan(150)); //PRINTS THE ABOVE ACCORDING TO WHICH DIGIT INSERTED.....
+//Exercise.
+function testGreaterThan(val) {
+    if (val > 100) {
+        return "Over 100"
+    }
+    if (val > 15) {
+        return "Over 15"
+    }
+    return "10 or Under"
+}
+console.log(testGreaterThan(70)); //PRINTS OVER 15 WHEN '70' ,10 OR UNDER WHEN '8' and OVER 100 WHEN '101' .....
+//Exercise.
+function testGreaterThan(val) {
+    if (val > 1000) {
+        return "Over 1000"
+    }
+    if (val > 500) {
+        return "Over 500"
+    }
+    return "20 Or Under"
+}
+console.log(testGreaterThan(9))
+//ATTEMPTED THE TEST GREATER THAN MODULE AND FINISHED.....
+
+//COMPARISON WITH THE GREATER THAN OR EQUAL TO OPERATOR.
+//Example.
+function testGreaterThanOrEqual(val) {
+    if (val >= 50) {
+        return "Over 50"
+    }
+    if (val >= 25) {
+        return "Over 25"
+    }
+    return "18 Or Under"
+}
+console.log(testGreaterThanOrEqual(45));
+//Exercise.
+function testGreaterThanOrEqual(val) {
+    if (val >= 10000) {
+        return "Over Expensive"
+    }
+    if (val >= 5000) {
+        return "Fair Price"
+    }
+    return "It is Cheap"
+}
+console.log(testGreaterThanOrEqual(900))
+//ATTEMPTED THE TEST GREATER OR EQUAL TO AND FINFISHED.......
+
+//COMPARISON WITH THE LESS THAN OPERATOR.
+//Example.
+function testLessThanOperator(val) {
+    if (val < 100) {
+        return "Less than 100"
+    }
+    if (val < 28) {
+        return "Less Than 28"
+    }
+    return "Less than 10"
+}
+console.log(testLessThanOperator(80));
+
+//COMPARISON WITH THE LESS THAN OR EQUAL TO OPERATOR.
+//Example.
+function testLessThanOrEqual(val) {
+    if (val <= 100) {
+        return "Under than 100"
+    }
+    if (val <= 50) {
+        return "Under than 50"
+    }
+    return "15 or Over"
+}
+console.log(testLessThanOrEqual(13))
+
+//COMPARISON WITH THE LOGICAL AND OPERATOR.
+//Example.
+function testLogicalAnd(val) {
+    if (val <= 50 && val >=25 ) {
+        return "Yes"
+    }
+    return "No"
+}
+console.log(testLogicalAnd(30)) //PRINTS YES AS IT GOES BY THE COMMAND 30 IS LESS THAN 50 AND GREATER THAN 25.
+//Exercise.
+function testLogicalAnd(val) {
+    if (val <= 1000 && val >= 100) {
+        return "Yes It is"
+    }
+    return "No it is not, Try Again"
+}
+console.log(testLogicalAnd(90));// PRINTS 'NOT IT IS OT, TRY AGAIN' COZ 90 IS GREATER THAN 100.
+
+//COMPARISONS WITH THE LOGICAL OR OPERATOR. REVISIT THIS SOON *******
+//Example.
+//function testLogicalOr(val) {
+    //if (val < 25  val > 50) {
+        
+  //  }
+//}
+
+// ELSE STATEMENTS.
+//Example.
+function testIfElse(val) {
+    if (val > 10) {
+        return "Greater than 10"
+    } else {
+        return "Less than 10"
+    }
+}
+console.log(testIfElse(29)) // PRINTS GREATER THAN 10 COZ IT'S BIGGER THAN 10 UNLESS OTHERWISE.
+//Exercise. 
+function testIfElse(val) {
+    if (val <= 5) {
+        return "Too Little"
+    } else {
+        return "Too Much"
+    }
+}
+console.log(testIfElse(7)); // PRINTS TOO MUCH, COZ IT IS MOTRE THAN 7 IN THIS CASE.
+//Exercise.
+function testTheIfElseStatements(val) {
+    if (val > 30) {
+        return "Higher"
+    } else {
+        return "Lower"
+    }
+}
+console.log(testTheIfElseStatements(50)); //PRINTS HIGHER COZ IT IS MORE THAN 30.
+
+//ELSE IF STATEMENTS.
+//Example.
+function testElseIf(val) {
+    if (val > 10) {
+        return "Greater than 10"
+    } else if (val < 5) {
+        return "Smaller than 5"
+    } else {
+        return "Between 5 and 10"
+    }
+}
+console.log(testElseIf(6));
+//Exercise.
+function testElseIf(val) {
+    if (val > 20) {
+        return "Greater than 20"
+    } else if (val < 10) {
+        return "Less than 10"
+    } else {
+        return "Between 11 and 19"
+    }
+}
+console.log(testElseIf(16)); //PRINTS BETWEEN 11 AND 19 COZ IT'S PER THE COMMAND.
+
+//CHANINING IF ELSE STATEMENTS.
+//Example.
+function orderOfElseIf(num) {
+    if (num < 10) {
+        return "So Tiny"
+    }else if (num < 20) {
+        return "So Small"
+    }else if (num < 30) {
+        return "Big"
+    } else if (num < 40) {
+        return "Bigger than Previous"
+    } else {
+        return "More than enough"
+    }
+}
+console.log(orderOfElseIf(24)); 
+//Exercise.
+function orderingOfElseIf(val) {
+    if (val < 100) {
+        return "Tiny"
+    }else if (val < 200) {
+        return "Small"
+    }else if (val < 300) {
+        return "Big"
+    }else if (val < 400) {
+        return "Bigger"
+    }else if (val < 500) {
+        return "Biggest"
+    } else if (val < 600) {
+        return "The Biggest"
+    } else {
+        return "Largest"
+    }
+}
+console.log(orderingOfElseIf(50)); //THE ELSE IF JUST BEHAVES LIKE THE NESTED IF STATEMENTS IN HTML COZ IT USES A CHAIN OF ELSE IF STATEMENTS TO RECORD VALUES.
+
+// GOLF CODE. ***** REVISIT THIS AREA NOT UNDERSTOOD...
+//Example.
+
+
+// SWITCH SATETMENTS.
+//Example.
+function caseInSwitch(val) {
+    var answer = "";
+    switch(val) {
+        case 1:
+            answer = "alpha";
+            break;
+        case 2:
+            answer = "beta"
+            break;
+        case 3:
+            answer = "gamma"
+            break;
+        case 4:
+            answer = "delta"
+            break;
+    }
+    return answer;
+}
+console.log(caseInSwitch(4)); // WE HAVE USED A CASE SWITCH STATEMENT INSTEAD OF AN ELSE IF LOOP.
+//Exercise.
+function caseSwitch(val) {
+    var myName = "";
+    switch (val) {
+        case 1:
+            myName = "Johnson"
+            break;
+        case 2:
+            myName = "Fay"
+            break;
+        case 3:
+            myName = "Mark"
+            break;
+        case 4:
+            myName = "Otis"
+            break;
+        case 5:
+            myName = "My Momma"
+            break;
+        case 6:
+            myName = "Annah"
+            break;
+        case 7:
+            myName = "Sophie"
+            break;
+        case 8:
+            myName = "Kamau"
+    } 
+    return myName;
+}
+console.log(caseSwitch(1));
+//Exercise.
+function caseInSwitch(num) {
+    var Uber = "";
+    switch (num) {
+        case 1:
+            Uber = "1000sh to Town"
+            break;
+        case 2:
+            Uber = "2000sh to Ongata Rongai"
+            break;
+        case 3:
+            Uber = "3000sh to Nakuru"
+            break;
+        case 4:
+            Uber = "4200sh to Kisumu"
+    }
+    return Uber;
+}
+console.log(caseInSwitch(4)); // PRINTS '4200sh TO KISUMU' AS FOR CASE 4.....
+//Exercise.
+function switchInCase(val) {
+    var theDon = "";
+    switch (val) {
+        case 1:
+            theDon = "First"
+            break;
+        case 2:
+            theDon = "Second"
+            break;
+        case 3:
+            theDon = "Third"
+            break;
+    }
+    return theDon;
+}
+console.log(switchInCase(2));
+//Example.
+function caseInSwitch(num) {
+    var myBool = "";
+    switch (num) {
+        case 1:
+            myBool = "Execute First"
+            break;
+        case 2:
+            myBool = "Execute Second"
+            break;
+        case 3:
+            myBool = "Execute Third"
+            break;
+        case 4:
+            myBool = "Execute Fourth"
+            break;
+    }
+    return myBool;
+}
+console.log(caseInSwitch(3)) //IT EXECUTES THE 'EXECUTE THIRD' COZ, WE HAVE USED CASE SWITCH STATEMENTS IN THE LOOP.
+//Example.
+function caseInput(num) {
+    var noInput = "";
+    switch(num) {
+        case 1:
+            noInput = "1"
+            break;
+        case 2:
+            noInput = "2"
+            break;
+        case 3:
+            noInput = "3"
+            break;
+        case 4:
+            noInput = "4"
+
+    }
+    return noInput;
+}
+console.log(caseInput(2));
+
+//DEFAULT OPTION IN SWITCH STATEMENTS.
+function switchOfStuff(num) {
+    var answer = "";
+    switch (num) {
+        case "a":
+            answer = 'apple'
+            break;
+        case "b":
+            answer = "book"
+            break;
+        case "c":
+            answer = "cat"
+            break;
+        case "d":
+            answer = "dog"
+            break;
+        default:
+            answer = "house"
+            break;
+    
+    }
+    return answer;
+}
+console.log(switchOfStuff("c")); 
+//NB...When you pass a string in a code, you must pass the same string in the console.log input.
+//Example.
+function switchOnCommand(input) {
+    var output = "";
+    switch (input) {
+        case "1":
+            output = "Johnson"
+            break;
+        case "j":
+            output = "Kamau"
+            break;
+        case "u":
+            output = "Mark"
+            break;
+        default:
+            output = "Nope"
+            break;
+    }
+    return output;
+}
+console.log(switchOnCommand("1")); //DISPLAYS JOHNSON COZ WE HAVE PASSED "1" WHICH WILL INDICATE THE NAME 'JOHNSON'......
+// Last Exercise.
+function switchTheVice(val) {
+    var put = "";
+    switch (val) {
+        case "v":
+            put = "North"
+            break;
+        case "h":
+            put = "East"
+            break;
+        case "m":
+            put = "South"
+            break;
+        case "d":
+            put = "West"
+            break;
+        default:
+            put = "No Cardinal Point Above"
+    }
+    return put;
+}
+console.log(switchTheVice("m")); //PRINTS SOUTH......
+
+//MULTIPLE IDENTICAL OPTIONS IN SWITCH STATEMENTS.
+function multipleSwitch(nope) {
+    var answer = ""
+    switch (nope) {
+        case 1:
+        case 2:
+        case 3:
+            answer = "YES 123 is correct!"
+            break;
+        case 4:
+        case 5:
+        case 6:
+            answer = "YES 456 is correct!"
+            break;
+        case 7:
+        case 8:
+        case 9:
+            answer = "YES 789 is correct!"
+            break;
+    }
+    return answer;
+}
+console.log(multipleSwitch(9)); //IT DIPLAYS 'YES 789 is correct!' COZ WE HAVE PASSED CASE 9 THAT INCLUDES CASE 7,8,9.....
+//Another Example.
+function multipleSwitchSta(val) {
+    var j = ""
+    switch (val) {
+        case 9:
+        case 8:
+        case 7:
+            j = "High"
+            break;
+        case 6:
+        case 5:
+        case 4:
+            j = "Mid"
+            break;
+        case 3:
+        case 2:
+        case 1:
+            j = "Low"
+            break;
+    }
+    return j;
+}
+console.log(multipleSwitchSta(4)) //PRINTS 'MID' COZ OF CASE 4 IS PASSED.....
+
+//REPLACING IF RLSE CHAINS WITH SWITCH.
+function replacingIfElse(num) {
+    var result = ""
+    switch (num) {
+        case 9000:
+            result = "Nine Thousand"
+            break;
+        case 100000:
+            result = "One Hundred Thousand"
+            break;
+        case 1000000:
+            result = "One Million"
+            break;
+        case 10000000:
+            result = "Ten Million"
+            break;
+    }
+    return result;
+}
+console.log(replacingIfElse(9000)); //DISPLAYS 'NINE THOUSAND' AS PASSED IN CASE 1.....
+
+//RETURNING BOOLEAN VALUES FROM FUNCTIONS.
+// FIRST INSTANCE.
+function booleanTrueOrFalse(num) {
+    if (num < 5) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(booleanTrueOrFalse(2)); 
+// SECOND INSTANCE.
+function booleanTrueOrFalse(a, b) {
+    return a > b;
+}
+console.log(booleanTrueOrFalse(20, 10)); //PRINTS TRUE....
+//Exercise of SECOND INSTANCE.
+function boolPrinciple(c, m) {
+    return c < m;
+}
+console.log(boolPrinciple(2, 1)); //PRINTS FALSE....
+
+//RETURNING EARLY PATTERN FROM FUNCTIONS. ******
+// REVISIT THIS TOPIC. ****
+
+
+
+
+//COUNTING CARDS.
+// REVISIT THIS TOPIC. ****
+
+
+
+
+//BUILD JAVASCRIPT OBJECTS.
+var ourDog = {
+    "name": "Camper",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["everything!"]
+};
+
+var myDog = {
+    "name": "Quincy",
+    "legs": 3,
+    "tails": 1,
+    "head": 0,
+}
+console.log(myDog);
+//Exercise.
+var myPet = {
+    "pet name": "Rex",
+    "color": "white",
+    "legs": 4,
+    "ears": 1,
+    "age": "3years",
+}
+console.log(myPet); //THIS IS THE BUILDING OF OBJECTS...IN JAVASCRIPT SIMILAR TO ARRAYS BUT WE USE CURLY BRACKETS...
+//AN OBJECT are a fundamental and versatile data structure that allow you to store collections of data and more complex entities. An object is essentially a collection of key-value pairs, where each key is a
+//string(also called a property name) and each value can be any data type, including another object, a function, or a primitive type(such as a number or string).
+
+//ACCESSING OBJECT PROPERTIES WITH DOT NOTATION.....
+//Example.
+var testObj = {
+    "hat": "ballcap",
+    "shirt": "white",
+    "shoes": "Jordan 9s",
+};
+
+var hatValue = testObj.hat;   // Change this line
+var shirtValue = testObj.shirt;   // Change this line
+console.log(testObj);
+//Exercise.
+var testObject = {
+    "laptop": "HP",
+    "book": "48 Laws of Power",
+    "Playstation": "PS4",
+    "Bluetooth speaker": "Sound Square",
+    
+    // var bookValue = testObj.book
+    // var PlaystationValue = testObj
+}
+console.log(testObject);
+
+//ACCESSING OBJECT PROPERTIES WITH BRACKET NOTATION.
+//Example.
+var testObj = {
+    "an entree": "hambugger",
+    "my side": "veggies",
+    "the drink": "water",
+};
+var entreeValue = testObj["an entree"];
+var drinkValue = testObj["the drink"];
+
+console.log(drinkValue); //IT SIMPLY DISPLAYS THE NAME OF THE VALUE BY TESTING THE PROPERTY FIRST....
+//Exercise.
+var testObj = {
+    "Baby": "Johnson",
+    "drink": "juice",
+    "school": "Zetech",
+};
+var BabyValue = testObj["Baby"];
+var schoolValue = testObj['school'];
+
+console.log(schoolValue); //PERFECLY EXECUTED....
+//Exercise.
+var testObject = {
+    "name": "Kamau",
+    "age": "19yrs",
+    "Location": "Ruiru",
+};
+
+var nameValue = testObject["name"];
+var ageValue = testObject["age"];
+
+console.log(ageValue); //PERFECTLY EXECUTED....
+
+//ACCESSING OBJECT PROPERTIES WITH VARIABLES.
+//Example.
+var testObj = {
+    12: "Namath",
+    16: "Montana",
+    19: "Unitas",
+};
+var playerNumber = 16;
+var player = testObj[playerNumber];
+
+console.log(player);
+
+//Exercise.
+// var testObj = {
+   // 19: "Johnson",
+   // 26: "Kamau",
+  //  40: "Kabiru",
+//};
+//var ageNumber = 26;
+//var personAge = testObj[personAge];
+
+// console.log(personAge);
+
+//UPDATING OBJECT PROPERTIES.
+//Example.
+var ourDog = {
+    "name": "Johny",
+    "Age": "30yrs",
+    "School": "Anestar High School",
+}
+
+ourDog.School = "Zetech University";
+console.log(ourDog.School); //WE HAVE JUST CHANGED THE VALUE OF SCHOOL FROM 'ANESTAR HIGHSCHOOL' TO 'ZETECH UNIVERSITY'.
+
+//Exercise.
+var myPet = {
+    "petName": "Jack",
+    "petToy": "Ball",
+    "petChain": "Silver Type",
+};
+myPet.petToy = "Biting Bone";
+console.log(myPet.petToy); // MASTERED WELL THE UPDATING OF OBJECT VARIABLES.
+
+//ADD NEW PROPERTIES TO AN OBJECT.
+var myName = {
+    "name": "Happy Coder",
+    "legs": "2",
+    "tails": "No Tails",
+    "friends": "Ireri,Gad,Hosea",
+};
+myName["parents"] = "2";
+console.log(myName); // WE HAVE ADDED THE PROPERTY OF 'parents'.....
+//Example.
+var myAge = {
+    "name": "Frank",
+    "car": "Subaru",
+    "trips": "Mombasa Vacation",
+};
+myAge["country"] = "Kenya";
+console.log(myAge); //ADDED COUNTRY PROPERTIY TO THE OBJECT....
+
+//DELETE PROPERTIES FROM AN OBJECT.
+//Example.
+var myName = {
+    "name": "Camper",
+    "legs": "2",
+    "friends": ["everything!"],
+    "bark": "bow-wow",
+};
+delete myName.bark;
+console.log(myName); //WE HAVE DELETED THE 'bark': 'bow-wow' properties and values....
+//Exercise.
+var myPhase = {
+    "name": "Johnson Kamau",
+    "residence": "Kisumu",
+    "education": "Computer Science",
+};
+delete myPhase.name;
+console.log(myPhase); //SUCCESSFULLY EXECUTED THE DELETION OF THE NAME PROPERTY AND VALUE IN THE OBJECTS....
+
+//USING OBJECTS FOR LOOKUPS.
+//Example.
+function myLibrary(val) {
+    var result = "";
+
+    switch (val) {
+        case "name":
+            result = "Johnson Kamau";
+            break;
+        case "age":
+            result = "19yrs";
+            break;
+        case "country":
+            result = "Kenya";
+            break;
+        case "residence":
+            result = "Ruiru, Nairobi";
+            break;
+        case "job":
+            result = "No Job at the moment";
+            break;
+        case "education":
+            result = "Zetech University";
+            break;
+        case "area of Liking":
+            result = "Mombasa";
+            break;
+    }
+    return result;
+}
+console.log(myLibrary("name")); 
+//Example.
+function libraryLookUps(val) {
+    var result = "";
+    var lookup = {
+        "Tokyo": "Japan",
+        "Nairobi": "Kenya",
+        "Kigali": "Rwanda",
+        "Dodoma": "Tanzania",
+        "Washington DC": "USA",
+    };
+    result = lookup[val];
+    return result;
+}
+console.log(libraryLookUps("Kigali"));
+//Exercise.
+function namesLookup(num) {
+    var result = "";
+    var lookup = {
+        "1st": "Johnson Kamau",
+        "2nd": "Faith Wangechi",
+        "3rd": "Lawrence Ireri",
+        "4th": "Peter Kabiru",
+    }
+    result = lookup[num];
+    return result;
+}
+console.log(namesLookup("4th"));
+//Exercise.
+function viralTrends(bool) {
+    var result = "";
+    var lookup = {
+        "Mamushi": "Trends",
+        "Band4band": "Trends",
+        "MyFriend": "N/A Trends",
+    }
+    result = lookup[bool];
+    return result;
+}
+console.log(viralTrends("Band4band")); //PASSED BAND4band AND RETURNED IT IS A TREND....
+//Exercise.
+function topNames(solo) {
+    var result = "";
+    var lookup = {
+        "1stname": "Johnson",
+        "2ndname": "Kamau",
+        "3rdname": "Kabiru",
+        "4thname": "Fifa Montage",
+    }
+    result = lookup[solo];
+    return result;
+}
+console.log(topNames("4thname")); //LEARNED THAT myName IS NOT A FUNCTION....
+
+//TESTING OBJECTS FOR PROPERTIES.... ****REVISIT YHIS TOPIC....
+//var myObj = {
+  //  "gift": "pony",
+    //"pet": "kitten",
+    //"bed": "sleigh",
+//};
+//function checkObj(checkProp) {
+ //   if (myObj.hasOwnProperty(checkProp)) {
+   //     return myObj[checkProp];
+   // } else {
+    //    return "Not Found";
+    //}
+    //return "Change Me !";
+//}
+//console.log(myObj("gift"));
+
+//ACCESSING NESTED OBJECTS...... ****
+//Example.
+//var myMusic = {
+ //   "artist": "Billy Joel",
+ //   "title": "Piano Man",
+ //   "release_year": "1973",
+  //  "formats": [
+   //     "CD",
+   //     "8T",
+    //    "LP",
+  //  ],
+ //   "gold": true
+//}
+//{
+ //   "artist"; "Beau Carnes",
+//}
+
+//ACCESSING NESTED OBJECTS.
+//Example.
+var myStorage = {
+    "car": {
+        "inside": {
+            "glove box": "maps",
+            "passenger seat": "crumbs"
+        },
+        "outside": {
+            "trunk": "jack"
+        }
+    }
+};
+var gloveBoxContents = myStorage.car.inside["glove box"];
+console.log(gloveBoxContents);
+//Exercise.
+//var myStorage = {
+   // "inside": {
+     ///   "first": {
+       //     "name": "Johnson",
+    //        "fname": "Kamau",
+    //    },
+      //  "last": {
+      //      "name 3": "Kabiru",
+     //       "name 4": "Fifa Montage",
+    //    }
+    //}
+//};
+//var myDetails = myName.inside.first.name["name"];
+//console.log(myDetails);
+
+//ACCESSING NESTED ARRAYS.
+//Example.
+var myPlants = [
+    {
+        type: "flowers",
+        list: [
+            "rose",
+            "tulip",
+            "dandelion",
+        ]
+    },
+    {
+        type: "trees",
+        list: [
+            "fir",
+            "pine",
+            "birch",
+        ]
+    }
+];
+var secondTree = myPlants[1].list[1];
+console.log(secondTree);
+//Exercise.
+var myVehicles = [
+    {
+        brand: "Mistubishi",
+        type: [
+            "Camry",
+            "Rav4",
+        ]
+    },
+    {
+        brand: "Toyota",
+        type: [
+            "Corolla",
+            "Avalon",
+        ]
+    }
+];
+var myWorkshop = myVehicles[0].brand[1];
+console.log(myWorkshop);
+
+//RECORD COLLECTION. ****REVISIT THIS AREA....
+
+//ITERATE WITH WHILE LOOPS.
+var myArray = [];
+
+var i = 0;
+while (i < 5) {
+    myArray.push(i);
+    i++;
+}
+console.log(myArray); //WHILE LOOPS JUST INCREMENTED THE NUMERS FROM '0 TO 5'.....
+//Exercise.
+var myArray = [];
+
+var i = 0;
+while (i < 10); {
+    myArray.push(i);
+    i++;
+}
+console.log(myArray);
+//Example.
+//FOR LOOPS FOR EVEN NUMBERS.
+//Example.
+var ourArray = [];
+for (var u = 10; u < 100; u += 2) {
+    ourArray.push(u);
+}
+console.log(ourArray); //THIS IS FOR EVEN NUMBERS ONLY....(FOR LOOP FOR EVEN NUMBERS).
+//FOR LOOPS FOR ODD NUMBERS.
+//Example.
+var ourArray = [];
+for (var i = 11; i < 25; i += 2) {
+    ourArray.push(i);
+}
+console.log(ourArray); //THIS IS FOR ODD NUMBERS ONLY.....(FOR LOOPS FOR EVEN NUMBERS).
+
+//COUNT BACKWARDS WITH A FOR LOOP.
+//Example.
+var myArray = [];
+for (var i = 10; i > 0; i -= 2) {
+    myArray.push(i);
+}
+console.log(myArray); //DECREMENTED THE VARIABLE FORM 10 TO 0.....
+//NB: THE ASSIGNMENT OPERATOR (=) SHOULD ALWAYS BE AFTER THE OPERATOR (+=).
+//Example.
+var myArray = [];
+for (var i = 100; i > 90; i -= 1) {
+    myArray.push(i);
+}
+console.log(myArray); //DECREMENTING ODD NUMBERS USING THE FOR LOOPS.
+//Example.
+var ourArray = [];
+for (var i = 1000; i > 125; i -= 100) {
+    ourArray.push(i);
+}
+console.log(ourArray);
+//Example.
+var myArray = [];
+for (var p = 200; p > 100; p -= 10) {
+    myArray.push(p);
+}
+console.log(myArray);
+//SUCCESSFULLY DECREMENTED THE NUMBERS BY USE OF FOR LOOP.
+
+// NESTED OBJECTS............
+// Setup
+var myStorage = {
+    "car" : {
+        "inside": {
+            "glove box": "maps",
+            "passenger seat": "crumbs"
+        },
+        "outside": {
+            "trunk": "jack"
+        }
+    }
+};
+var gloveBoxContents = myStorage.car.inside["glove box"];
+console.log(gloveBoxContents); // Output: maps
+
+// Exercise.....
+var schoolPrisonStorage = {
+    "school": {
+        "student": "Johnson",
+        "class": "8",
+        "staffroom": "to the west"
+    },
+    "prison": {
+        "in-mate": "Mark",
+        "cell": "to the top building",
+        "guards": "in black uniform"
+    }
+};
+var infrastructureContents = schoolPrisonStorage.prison["cell"];
+console.log(infrastructureContents); // Output: to the top building
+
+// NESTED ARRAYS.......
+var myUtensils = [
+    {
+        plates: "black",
+        lists: [
+            "plastic",
+            "glass"
+        ]
+    },
+    {
+        cups: "glass",
+        lists: [
+            "nylon tea",
+            "milk tea"
+        ]
+    }
+];
+var myRack = myUtensils[1].lists[0];
+console.log(myRack); // Output: nylon tea
+
+// Exercise.....
+var myGames = [
+    {
+        adventure: "GTA",
+        lists: [
+            "Gta 5",
+            "Gta San A"
+        ]
+    },
+    {
+        Multiplayer: "Racing",
+        lists: [
+            "Blur"
+        ]
+    }
+];
+var myHobby = myGames[0].lists[1];
+console.log(myHobby); // Output: Gta San A
+
+
+// NESTED OBJECTS............
+// Setup
+var myStorage = {
+    "car" : {
+        "inside": {
+            "glove box": "maps",
+            "passenger seat": "crumbs"
+        },
+        "outside": {
+            "trunk": "jack"
+        }
+    }
+};
+var gloveBoxContents = myStorage.car.inside["glove box"];
+console.log(gloveBoxContents); // Output: maps
+
+// Exercise.....
+var schoolPrisonStorage = {
+    "school": {
+        "student": "Johnson",
+        "class": "8",
+        "staffroom": "to the west"
+    },
+    "prison": {
+        "in-mate": "Mark",
+        "cell": "to the top building",
+        "guards": "in black uniform"
+    }
+};
+var infrastructureContents = schoolPrisonStorage.prison["cell"];
+console.log(infrastructureContents); // Output: to the top building
+
+// NESTED ARRAYS.......
+var myUtensils = [
+    {
+        plates: "black",
+        lists: [
+            "plastic",
+            "glass"
+        ]
+    },
+    {
+        cups: "glass",
+        lists: [
+            "nylon tea",
+            "milk tea"
+        ]
+    }
+];
+var myRack = myUtensils[1].lists[0];
+console.log(myRack); // Output: nylon tea
+
+// Exercise.....
+var myGames = [
+    {
+        adventure: "GTA",
+        lists: [
+            "Gta 5",
+            "Gta San A"
+        ]
+    },
+    {
+        Multiplayer: "Racing",
+        lists: [
+            "Blur"
+        ]
+    }
+];
+var myHobby = myGames[0].lists[1];
+console.log(myHobby); // Output: Gta San A
+
+
+
+
+
+
+
